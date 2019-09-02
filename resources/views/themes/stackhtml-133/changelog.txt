@@ -1,0 +1,372 @@
+===================================================================
+v 1.3.3 - 27 April 2017
+-------------------------------------------------------------------
+NEW       - Added new Wizard element (elements-wizards.html)
+FIX       - Fixed Toggle Class bug on Sidebar Column layout
+FIX       - Fixed bug associated with complex radio button names
+UPDATE    - Improved styling for input[type="image"]
+UPDATE    - Improved styling for responsive Centered Logo navigation
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /elements-wizards.html
+UPDATE    - /less/theme_components/forms.less
+UPDATE    - /less/theme_components/bars.less
+UPDATE    - /css/theme-*.css
+UPDATE    - /js/scripts.js
+UPDATE    - /variant/*
+
+
+===================================================================
+v 1.3.2 - 7 April 2017
+-------------------------------------------------------------------
+NEW       - Added Blog Articles Minimal layout (blog-articles-list-minimal.html)
+NEW       - Added new Process Stepper element (sections-processes.html)
+NEW       - Added 2 new Cover Gradient sections
+UPDATE    - Added 2 new cover blocks to Variant
+UPDATE    - Improved documentation on modals
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /blog-articles-list-minimal.html
+UPDATE    - /sections-processes.html
+UPDATE    - /sections-covers.html
+UPDATE    - /less/theme_components/blog.less
+UPDATE    - /less/theme_components/process.less
+UPDATE    - /css/theme-*.css
+UPDATE    - /variant/*
+
+
+===================================================================
+v 1.3.1 - 31 March 2017
+-------------------------------------------------------------------
+NEW       - Added Home Political layout (home-political.html)
+NEW       - Added new radio input style (elements-form-elements.html)
+NEW       - Added spacing controls to sections in Variant
+NEW       - Added Form Elaborate 1 block to Variant
+FIX       - Fixed bug where fullscreen parallax elements wouldn't appear
+FIX       - Fixed responsive bug on CTA Horizontal 2
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /home-political.html
+UPDATE    - /elements-form-elements.html
+UPDATE    - /sections-subscribes.html
+UPDATE    - /less/theme_components/cta.less
+UPDATE    - /less/theme_components/forms.less
+UPDATE    - /css/theme-*.css
+FIX       - /variant/*
+FIX       - /js/parallax.js
+
+
+===================================================================
+v 1.3.0 - 24 March 2017
+-------------------------------------------------------------------
+NEW       - Added Account Settings page (page-account-settings.html)
+NEW       - Added Conversation layout page (page-utiltiy-conversation.html)
+NEW       - Added Boxed Layout feature (see documentation)
+NEW       - Added Home Landing 10 layout (home-landing-10.html)
+NEW       - Added Pricing Features 5 block
+UPDATE    - Improved navigation at tablet portrait breakpoint
+UPDATE    - Added @logo-max-height variable to LESS for easy logo sizing
+FIX       - Fixed bug where some icons were not exporting from Variant
+FIX       - Fixed bug where pasting text in Variant caused issues
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /page-account-settings.html
+NEW       - /page-utility-conversation.html
+NEW       - /less/framework_componenets/boxed-layout.less
+NEW       - /home-landing-10.html
+UPDATE    - /less/theme_components/dropdowns.less
+UPDATE    - /less/theme_components/bars.less
+UPDATE    - /less/theme_components/pricing.less
+UPDATE    - /less/theme_components/customizers.less
+UPDATE    - /less/theme-variables.less
+UPDATE    - /css/theme-*.css
+FIX       - /variant/*
+FIX       - /js/scripts.js
+
+
+===================================================================
+v 1.2.3 - 16 March 2017
+-------------------------------------------------------------------
+NEW       - Added Home Fitness layout
+NEW       - Added Navigation Sidebar Column style
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /home-fitness.html
+NEW       - /elements-navigation-sidebar.html
+NEW       - /less/theme_componenets/navigation-sidebar-column.less
+
+
+===================================================================
+v 1.2.2 - 8 March 2017
+-------------------------------------------------------------------
+NEW       - Added home-portfolio-personal-1.html layout
+NEW       - Added Cover Form 4 block
+NEW       - Added Tabs Images 1 to Variant
+NEW       - Added page-utility-search-results.html
+NEW       - Added Form with Map 1 block
+NEW       - Added number input control element
+UPDATE    - Added 'data-default-filter' option to .masonry
+UPDATE    - Added 'autohide' function for notifications
+FIX       - Bug associated with Piecharts in Variant
+FIX       - Sliders not displaying in switchable sections
+FIX       - Masonry not filtering bug
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /home-portfolio-personal-1.html
+NEW       - /page-utility-search-results.html
+UPDATE    - /css/less/theme_components/switchable.less
+UPDATE    - /css/less/theme_components/forms.less
+UPDATE    - /css/theme-*.css
+UPDATE    - /js/scripts.js
+UPDATE    - /variant/*
+UPDATE    - /sections-contact.html
+UPDATE    - /sections-tabs.html
+UPDATE    - /elements-form-elements.html
+
+
+===================================================================
+v 1.2.1 - 4 March 2017
+-------------------------------------------------------------------
+FIX       - Bug in image saving in Variant
+FIX       - Bug associated with Piecharts in Variant
+
+
+Files affected:
+-------------------------------------------------------------------
+UPDATE    - /js/scripts.js
+UPDATE    - /variant/*
+
+
+===================================================================
+v 1.2.0 - 3 March 2017
+-------------------------------------------------------------------
+NEW       - Added radial progress bars
+NEW       - Added radial progress bar sections
+NEW       - Added validate rule for phone numbers (see docs)
+NEW       - Added calendar picker input
+NEW       - Added Features Large 13 section
+NEW       - Added Home Construction layout
+UPDATE    - Further improvements to masonry + parallax elements
+UPDATE    - Improved code formatting in Variant output
+FIX       - Bug with mapmarker.png
+FIX       - Remove duplicate description tag from Variant output
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW       - /elements-radials.html
+UPDATE    - /sections-processes.html
+UPDATE    - /js/scripts.js
+NEW       - /js/datepicker.js
+NEW       - /home-construction.html
+UPDATE    - /sections-features-large.html
+UPDATE    - /css/theme-*.css
+UPDATE    - /css/less/*
+UPDATE    - /variant/*
+
+===================================================================
+v 1.1.6 - 22 February 2017
+-------------------------------------------------------------------
+NEW    - Styled multi-purpose notificaion examples
+NEW    - Tooltips to show extra pop-up information on hover
+NEW    - Added 2 Cover With Features blocks
+NEW    - Added Features Large 12 block
+FIX    - Masonry layout interupting parallax elements below
+FIX    - Bug in Variant when switching nav to overlay
+FIX    - Multiple radio buttons in forms bug
+FIX    - Contact Form Text 1 not full width on mobile
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - /sections-notifications.html
+NEW    - /elements-tooltips.html
+UPDATE - /sections-covers.html
+UPDATE - /sections-features-large.html
+FIX    - /js/scripts.js
+FIX    - /variant/*
+FIX    - /sections-forms-contact.html
+
+
+===================================================================
+v 1.1.5 - 18 February 2017
+-------------------------------------------------------------------
+FIX    - Bugs in some elements when editing text
+FIX    - Reported bugs while editing some blocks in Variant
+FIX    - Importing from .variant file didn’t save metadata
+
+Files affected:
+-------------------------------------------------------------------
+FIX    - /variant/*
+
+
+===================================================================
+v 1.1.4 - 17 February 2017
+-------------------------------------------------------------------
+NEW    - Rich text editing features now in Variant
+NEW    - Software Landing Page 3 (home-software-3.html)
+FIX    - Variant hanging on loading screen for some users
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - /home-software-3.html
+UPDATE - /variant/*
+UPDATE - /css/theme.css
+UPDATE - /js/scripts.js
+
+
+===================================================================
+v 1.1.3 - 15 February 2017
+-------------------------------------------------------------------
+NEW    - New sections-modals page with 8 modal examples
+FIX    - Variant failing to reload for some users
+FIX    - Switching icons in Variant made them larger
+FIX    - Improved scrolling performance
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - /sections-modals.html
+UPDATE - /theme.css
+FIX    - /variant/*
+FIX    - /js/parallax.js
+
+===================================================================
+v 1.1.2 - 14 February 2017
+-------------------------------------------------------------------
+NEW    - Added RTL (Right to Left) Integration (see documentation)
+NEW    - Added Accordion Map blocks
+NEW    - Added new Process blocks
+FIX    - Modals with long content now scrollable
+FIX    - Improved navigation link controls in Variant
+FIX    - Google Analytics causing white bar in Variant output
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - theme-rtl.css
+UPDATE - sections-accordions.html
+UPDATE - sections-processes.html
+FIX    - /theme.css
+UPDATE - /variant/builder.html
+UPDATE - docs/stack_docs/*
+
+
+===================================================================
+v 1.1.1 - 10 February 2017
+-------------------------------------------------------------------
+NEW    - Added new Agency layout (home-portfolio-agency-2.html)
+NEW    - Added new Cover Video 6 block to Variant
+FIX    - Bugfix for using symbols such as & in masonry filter tags
+FIX    - Bugfix for embedded modals in Variant sidebar
+UPDATE - Embed subscribe forms from section sidebar in Variant
+UPDATE - Improved section controls on some Variant UI blocks
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - /home-portfolio-agency-2.html
+FIX    - js/scripts.js
+UPDATE - variant/*
+UPDATE - /sections-covers.html
+
+===================================================================
+v 1.1.0 - 9 February 2017
+-------------------------------------------------------------------
+NEW    - Variant Section Sidebar
+NEW    - New In Page Navigator element
+NEW    - New Home Drone Photography layout
+NEW    - Fullwidth portfolio pages
+NEW    - Case Study Parallax (portfolio-case-study-3.html)
+NEW    - Added Icons Mind icon pack reference
+UPDATE - Countdown 'days' text now customisable
+UPDATE - New 'switch' style input for forms
+UPDATE - In-page in a sidebar navigation now close the sidebar
+UPDATE - Sticky bars and mobile bars now documented
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - /home-drone-photography.html
+NEW    - /elements-navigation-inpage.html
+NEW    - /portfolio-four-2col.html
+NEW    - /portfolio-four-3col.html
+NEW    - /portfolio-case-study-3.html
+NEW    - /iconsmind-reference.html
+UPDATE - /elements-form-elements.html
+UPDATE - /elements-navigation.html
+UPDATE - /scripts.js
+UPDATE - /variant/*
+
+===================================================================
+v 1.0.4 - 3 February 2017
+-------------------------------------------------------------------
+FIX    - Added /mail folder for contact forms
+FIX    - Fixed Blog Single Image block in Variant
+
+
+Files affected:
+-------------------------------------------------------------------
+NEW    - /mail
+FIX    - /builder.html
+
+===================================================================
+v 1.0.3 - 1 February 2017
+-------------------------------------------------------------------
+FIX    - Tablet breakpoint menu bugs fixed
+FIX    - Mobile breakpoint sub-menu bugs fixed
+FIX    - Navigation bugs in Variant fixed
+UPDATE - Migrated to jQuery 3.1.1
+
+
+Files affected:
+-------------------------------------------------------------------
+FIX    - /theme.css, theme-*.css
+FIX    - /variant/builder.html
+NEW    - /js/jquery-3.1.1.min.js
+
+===================================================================
+v 1.0.2 - 31 January 2017
+-------------------------------------------------------------------
+NEW    - Ken Burns slider effect added (elements-sliders.html)
+NEW    - Ken Burns slider element added (sections-sliders.html)
+NEW    - Added iframe maps alternatives to each map section
+NEW    - Added Projects Gallery 4, Projects Gallery 5 blocks to Variant
+FIX    - Utility menu improved responsive view on mobile
+FIX    - Modal cross icon not displaying on some browsers fixed
+FIX    - LESS components now included in /theme_components folder
+UPDATE - Improved documentation for spacing classes
+UPDATE - Improved documentation for LESS files
+
+
+Files affected:
+-------------------------------------------------------------------
+FIX    - /*.html
+UPDATE - /elements-sliders.html
+UPDATE - /sections-galleries.html
+UPDATE - /sections-maps.html
+UPDATE - /sections-sliders.html
+UPDATE - /css/theme.css
+UPDATE - /variant/builder.html
+UPDATE - /docs/stack_docs/index.html
+
+===================================================================
+v 1.0.1 - 30 January 2017
+-------------------------------------------------------------------
+FIX    - Hamburger menu not triggering menu open on some menus
+
+
+Files affected:
+-------------------------------------------------------------------
+FIX    - /*.html
+
+===================================================================
+v 1.0.0 - 30 January 2017
+-------------------------------------------------------------------

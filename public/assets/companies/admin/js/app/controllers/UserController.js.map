@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../resources/assets/js/src/companies/admin/app-es6/controllers/UserController.js"],"names":["UserController"],"mappings":";;;;;;IAAMA,c;;;;;;;yBAEE,CAIN","file":"UserController.js","sourcesContent":["class UserController {\n\n\tinit() {\n\n\t\t\n\n\t}\n\n}\n"]}

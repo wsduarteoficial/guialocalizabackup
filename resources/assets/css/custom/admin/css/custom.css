@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*
+body {
+	font-family: 'Ubuntu', sans-serif;
+} */
+
+.page-header .page-header-top .page-logo {
+
+	font-family: 'Ubuntu', sans-serif;
+
+    float: left;
+    display: block;
+    width: 355px;
+    height: 75px;
+    font-size: 32px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.page-header .page-header-top .page-logo span {
+
+	font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    width: 272px;
+    color: #999;
+    margin-top: -10px;
+}
+
+
+.page-header .page-header-top .page-logo a:hover {
+    cursor: pointer;
+    color: #23527c;
+
+}
+
+
+a:active, a:focus, a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+.page-toolbar .form-actions button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn.register:not(.btn-outline) {
+    color: #fff;
+    background-color: #f2784b;
+    border-color: #f36a5a;
+}
+
+.item_inative, .item_inative a{
+    color: red;
+}
+
+
+.color_status, .color_status a{
+    color: #27a4b0;
+    font-weight: bold;
+}
+
+
+.list-categories .jstree-default .jstree-anchor {
+    line-height: 24px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.list-categories .jstree-default .jstree-clicked {
+    border: 0;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+
+.list-categories .btn-group-sm>.btn, .btn-sm {
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.list-categories .jstree-default .jstree-hovered {
+    border: 0;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.show-buttons-sponsors, .show-buttons-free {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; cursor: pointer;}
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+
+.dropdown-menu>li.active:hover>a, .dropdown-menu>li.active>a, .dropdown-menu>li:hover>a {
+    text-decoration: none;
+    background-image: none;
+    background-color: #f4d03f;
+    color: #2f353b;
+    filter: none;
+}

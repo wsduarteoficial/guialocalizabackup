@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /empresa/busca/
+Disallow: /empresa/busca?
+Disallow: /empresa/busca?*q=*
+Disallow: /login
+Disallow: /password/reset
+
+Disallow: /assets/
+Disallow: /assets/*
+
+Disallow: /contato/create
+Disallow: /2011/*
+Disallow: /auth/login
+Disallow: /sugerir
+
+Allow: /e/*

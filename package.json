@@ -1,0 +1,59 @@
+{
+    "private": true,
+    "name": "guialocaliza",
+    "description": "",
+    "version": "1.0.0",
+    "main": "webpack.mix.js",
+    "scripts": {
+        "start": "lite-server",
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production && npm run build && tsc && gulp css",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "build": "npm run build-admin-es6 && npm run build-admin-global",
+        "watch-admin": "npm run watch-admin-es6 && npm run watch-admin-global",
+        "build-admin-es6": "babel resources/assets/js/src/companies/admin/app-es6 -d public/assets/companies/admin/js/app --source-maps",
+        "watch-admin-es6": "babel resources/assets/js/src/companies/admin/app-es6 -d public/assets/companies/admin/js/app --source-maps --watch",
+        "build-admin-global": "babel resources/assets/js/src/companies/admin/global -d public/assets/companies/admin/js/global --source-maps",
+        "watch-admin-global": "babel resources/assets/js/src/companies/admin/global -d public/assets/companies/admin/js/global --source-maps --watch"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.3.1",
+        "axios": "^0.15.3",
+        "babel-cli": "^6.10.1",
+        "babel-preset-es2015": "^6.9.0",
+        "bootstrap-sass": "^3.3.7",
+        "cross-env": "^3.2.3",
+        "devbridge-autocomplete": "^1.4.7",
+        "gulp": "^4.0.0",
+        "gulp-cli": "^2.0.1",
+        "gulp-csso": "^3.0.1",
+        "jquery": "^3.3.1",
+        "jquery.maskedinput": "^1.4.1",
+        "laravel-mix": "^4.0.12",
+        "lite-server": "^2.3.0",
+        "lodash": "^4.17.5",
+        "systemjs": "^0.20.19",
+        "typescript": "^2.7.2",
+        "vue": "^2.5.16"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/localiza/localiza.git"
+    },
+    "author": "William Duarte",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/localiza/localiza/issues"
+    },
+    "homepage": "https://github.com/localiza/localiza#readme",
+    "dependencies": {
+        "jquery-confirm": "^3.3.2"
+    }
+}
